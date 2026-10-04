@@ -3,9 +3,9 @@ spring:
     name: library-management
 
   datasource:
-    url: jdbc:oracle:thin:@host.docker.internal:1521/orclpdb
-    username: library_userxxxxxxx
-    password: library_userxxxxxx
+    url: jdbc:oracle:thin:@localhost:1521/orclpdb
+    username: library_user
+    password: library_user
     driver-class-name: oracle.jdbc.OracleDriver
 
   jpa:
